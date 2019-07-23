@@ -12,16 +12,5 @@
     <rule ref="category/java/errorprone.xml" />
     <rule ref="category/java/codestyle.xml" />
     <rule ref="category/java/bestpractices.xml" />
-    <rule ref="category/java/errorprone.xml">
-        <exclude name="AbstractNaming" />
-        <exclude name="LongVariable" />
-        <exclude name="ShortMethodName" />
-        <exclude name="ShortVariable" />
-        <exclude name="ShortClassName" />
-        <exclude name="VariableNamingConventions" />
-        <exclude name="AppendCharacterWithChar" />
-    </rule>
-    <rule ref="rulesets/java/unusedcode.xml">
-    <exclude name="UnusedModifier" />
-  </rule>
+    <rule ref="category/java/errorprone.xml"/>
 </ruleset>
