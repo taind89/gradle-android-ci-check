@@ -9,7 +9,7 @@
     <exclude-pattern>.*/R.java</exclude-pattern>
     <exclude-pattern>.*/gen/.*</exclude-pattern>
 
-    <rule ref="rulesets/java/android.xml" />
+    <rule ref="category/java/errorprone.xml" />
     <rule ref="rulesets/java/basic.xml" >
         <exclude name="CollapsibleIfStatements" />
     </rule>
