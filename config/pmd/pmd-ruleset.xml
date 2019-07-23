@@ -21,4 +21,7 @@
         <exclude name="VariableNamingConventions" />
         <exclude name="AppendCharacterWithChar" />
     </rule>
+    <rule ref="rulesets/java/unusedcode.xml">
+    <exclude name="UnusedModifier" />
+  </rule>
 </ruleset>
